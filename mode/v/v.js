@@ -22,6 +22,7 @@
       assert: true,
       atomic: true,
       break: true,
+      chan: true,
       const: true,
       continue: true,
       defer: true,
@@ -76,6 +77,11 @@
       byteptr: true,
       intptr: true,
       charptr: true,
+      array: true,
+      map: true,
+      len: true,
+      cap: true,
+      init: true,
     };
 
     var isOperatorChar = /[+\-*&^%:=<>!|\/]/;
